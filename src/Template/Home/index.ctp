@@ -19,9 +19,12 @@
                 <div id ="content2">
                     <a href="https://www.google.co.jp">Google</a>
                 </div> 
+<<<<<<< HEAD
                 <div id="content3">
                     <a href="../Users/index"><p>ログイン</p>
                 </div>
+=======
+>>>>>>> b10317526364d61327b3fd5049b7458979150675
             </div>
         </div>
 </html>

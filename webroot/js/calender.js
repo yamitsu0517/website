@@ -2,21 +2,14 @@ function math1_button(){
 
     var math1 = document.getElementById("calender1").value;
     var math2 = document.getElementById("calender2").value;
+    var date1 =new Date(math1);
+    var date2 =new Date(math2);
     
     // 空チェック
     if(math1==="" || math2===""){
         alert("開始日と終了日を入力してください");
     } else{
-        for(var i=0;i<3;i++){
-            math1 = math1.replace('-','');
-            console.log(math1);
-        }
-        for(var i=0;i<3;i++){
-            math2 = math2.replace('-','');
-            console.log(math2);
-        }
-        var result = math2 - math1;
-console.log(result);
+        var result = (date2 - date1)/86400000;
         document.getElementById('result1').innerHTML = "日付の差は「 " + result + " 」日間です";
     }   
 }

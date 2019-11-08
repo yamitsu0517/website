@@ -14,17 +14,14 @@
                     <h3>気になるコンテントを見てね</h3>
                 </div>
                 <div id ="content1">
-                    <a href="../Calender/index"><p>日付計算</p></a>
+                <?= $this->Html->link(__('ホーム'), ['action' => 'index']) ?>
                 </div>
                 <div id ="content2">
-                    <a href="https://www.google.co.jp">Google</a>
+                    <?= $this->Html->link(__('日付計算'), ['controller' => 'calender','action' => 'index']) ?> 
                 </div> 
-<<<<<<< HEAD
                 <div id="content3">
-                    <a href="../Users/index"><p>ログイン</p>
+                <?= $this->Html->link(__('ログイン'), ['controller' => 'users','action' => 'index']) ?> 
                 </div>
-=======
->>>>>>> b10317526364d61327b3fd5049b7458979150675
             </div>
         </div>
 </html>

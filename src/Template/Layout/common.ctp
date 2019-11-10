@@ -11,8 +11,8 @@
     </title>
     <?= $this->Html->meta('icon') ?>
  
-    <?= $this->Html->css('calender.css') ?>
- 
+    <?= $this->Html->css('common.css') ?>
+
     <?= $this->Html->script('calender.js') ?>
 
 </head>

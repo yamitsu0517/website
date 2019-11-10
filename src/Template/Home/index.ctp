@@ -14,13 +14,16 @@
                     <h3>気になるコンテントを見てね</h3>
                 </div>
                 <div id ="content1">
-                <?= $this->Html->link(__('ホーム'), ['action' => 'index']) ?>
+                    <?= $this->Html->link(__('ログイン'), ['controller' => 'users','action' => 'index']) ?> 
                 </div>
                 <div id ="content2">
-                    <?= $this->Html->link(__('日付計算'), ['controller' => 'calender','action' => 'index']) ?> 
+                    <?= $this->Html->link(__('ホーム'), ['action' => 'index']) ?>
                 </div> 
                 <div id="content3">
-                <?= $this->Html->link(__('ログイン'), ['controller' => 'users','action' => 'index']) ?> 
+                    <?= $this->Html->link(__('日付計算'), ['controller' => 'calender','action' => 'index']) ?> 
+                </div>
+                <div id="content4">
+                    <?= $this->Html->link(__('メモ'), ['controller' => 'memos','action' => 'index']) ?> 
                 </div>
             </div>
         </div>

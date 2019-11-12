@@ -6,9 +6,6 @@
     </head>
     <body>
         <div id="contents">
-            <div id="title">
-                <h1>便利サイト</h1>
-            </div>
             <div id="main">
                 <div id="main_word">
                     <h3>気になるコンテントを見てね</h3>

@@ -1,0 +1,74 @@
+
+body {
+    text-align : center;
+    width : 800px;
+    margin : auto;
+    background-image: url("../img/image1.jpeg") ;
+    /* 画像を常に上下左右の中央に配置させる */
+    background-position: center center; 
+    /* 画像を繰り返し表示しない */
+    background-repeat: no-repeat;  
+    /* ページなどのコンテンツの高さが画像の高さより大きい時動に固定する */
+    background-attachment: fixed; 
+    /* 画面、ブラウザのサイズに基づいて、背景画像を調整 */
+    background-size: cover;  
+}
+#tab1 a {
+    font-weight: bold;
+    color : black;
+}
+
+#tab2 a {
+    font-weight: bold;
+    color : black;
+}
+
+#tab3 a {
+    font-weight: bold;
+    color : black;
+}
+
+#main {
+    text-align : center;
+    background-color : aquamarine; 
+    position : relative;
+}
+#tab {
+    text-align : center;
+
+}
+#tab1 {
+    float : left ; 
+    margin-left : 100px;
+}
+
+#tab2 {
+    float : left ; 
+    margin-left : 40px;
+}
+
+#tab3 {
+    float : left ; 
+    margin-left : 40px;
+}
+
+#home {
+    clear : both ;
+    list-style-type: none;
+    text-align : center; 
+    margin : auto;
+}
+
+.rel {
+    font-weight: bold
+}
+
+
+p {
+    font-size : 12px;
+}
+
+div#test  {
+    text-align : center;
+
+}

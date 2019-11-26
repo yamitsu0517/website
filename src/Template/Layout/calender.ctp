@@ -24,6 +24,7 @@
     <div id="tab1"><?= $this->Html->link(__('ホーム'), ['controller' => 'home','action' => 'index']) ?></div>
     <div id="tab2"><?= $this->Html->link(__('日付計算'), ['controller' => 'calender','action' => 'index']) ?></div>
     <div id="tab3"><?= $this->Html->link(__('メモ'), ['controller' => 'memos','action' => 'index']) ?></div>
+    <div id="tab4"><?= $this->Html->link(__('部屋管理'), ['controller' => 'roomManages','action' => 'index']) ?></div>
   </div>
   
   <?= $this->fetch('content') ?>

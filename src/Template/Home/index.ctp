@@ -22,12 +22,9 @@
                 <div id="content4">
                     <?= $this->Html->link(__('メモ'), ['controller' => 'memos','action' => 'index']) ?> 
                 </div>
+                <div id="content5">
+                    <?= $this->Html->link(__('部屋管理'), ['controller' => 'roomManages','action' => 'index']) ?> 
+                </div>
             </div>
         </div>
 </html>
-
-<!-- 
-<div>
-    <h1>Helo Wrold!</h1>
-    <p class="text"><?= $test ?></p>
-</div> -->
